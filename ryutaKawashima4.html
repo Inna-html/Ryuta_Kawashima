@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Ryuta Kawashima [4/4] </title>
+  <link rel="stylesheet" href="ryutaKawashima1.css">
+  <link rel="icon" href="./img/favicon (3).ico">
+
+  <script defer src="./js/header-menu.js"></script>
+
+</head>
+
+<body>
+
+  <div class="page__wrapper">
+
+    <!-- ==== header ======================================================== -->
+    <header class="header__main">
+      <div class="main__container">
+
+        <a class="logo__main" href="index.html">
+          <img src="./img/img1.jpg" alt="logo" class="head__logo">
+        </a>
+
+        <nav class="header__menu menu">
+          <div class="menu__main">
+            <ul class="menu__list">
+              <li class="menu__link">
+                <a href="index.html"> Арифметические упражнения
+                </a>
+              </li>
+              <li class="menu__link">
+                <a href="ryutaKawashima2.html"> Арифметические упражнения*
+                </a>
+              </li>
+              <li class="menu__link">
+                <a href="ryutaKawashima3.html"> Арифметические упражнения**
+                </a>
+              </li>
+              <li class="menu__link">
+                <a href="ryutaKawashima4.html"> Тест Струпа
+                </a>
+
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <button class="header__burger-btn" id="burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+      </div>
+    </header>
+    <!-- ===== header end ======================================================= -->
+
+    <!-- ==== main ================================================================== -->
+    <main class="page__page">
+
+      <section>
+        <div class="color__container">
+          <div class="color__content">
+            <h3> Тест Струпа </h3>
+            <p><span class="span">Тест на цвет:</span>
+            <p>
+              В таблице ниже указан пример, где разными цветами написаны названия цветов.
+              При этом названия и сами цвета не совпадают.
+              Вам нужно вслух по порядку называть цвета, которыми написаны слова.
+              Будьте внимательны: вы должны не читать слово, а называть его цвет!
+            </p>
+            <p>
+              Кнопка "Начать упражнение" откроет разноцветные слова, далее каждый раз нажимая на кнопку "Следующие
+              слова"
+              будут меняться слова и цвета случайным образом.
+              Можно выполнять упражнение на время.
+            </p>
+
+            <br><br>
+
+            <div class="sqrExample">
+              <div class="ctable">
+
+                <div class="ctd pink"> зеленый </div>
+                <div class="ctd white"> желтый </div>
+                <div class="ctd gray"> красный </div>
+                <div class="ctd black"> оранжевый </div>
+
+                <div class="ctd brawn"> голубой </div>
+                <div class="ctd violet"> синий </div>
+                <div class="ctd blue"> фиолетовый </div>
+                <div class="ctd cyan"> коричневый </div>
+
+                <div class="ctd red"> серый </div>
+                <div class="ctd orange"> черный </div>
+                <div class="ctd yellow"> белый </div>
+                <div class="ctd green"> розовый </div>
+
+              </div>
+            </div>
+
+            <br><br>
+
+            <div class="btn">
+              <button class="btnStart__Plus" id="changeQuotes"> Начать упражнение </button>
+              <button class="btnNulling btnCo"> Закончить </button>
+            </div>
+
+            <div class="exersise">
+              <div class="color__words">
+                <p class="test1"> Цвет </p>
+                <p class="test1"> Цвет </p>
+                <p class="test1"> Цвет </p>
+                <p class="test1"> Цвет </p>
+                <p class="test1"> Цвет </p>
+              </div>
+
+              <button class="btnStart__Next" id="changeQuotes"> Следующие слова </button>
+
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <br><br><br><br>
+
+      <!-- ======= секундомер =========================================== -->
+      <section class="color">
+        <div class="colorSec__container">
+          <div class="color__content">
+
+            <h2>Каждые 5 минут будет уведомление о времени: </h2>
+            <div class="second">
+              <div class="clock">
+                <h1 id="timer">00:00</h1>
+              </div>
+              <div class="btnBlock">
+                <button id="startBtn">Старт</button>
+                <button id="pauseBtn" disabled>Пауза</button>
+                <button id="resetBtn" disabled>Сброс</button>
+              </div>
+            </div>
+            <br><br>
+          </div>
+        </div>
+      </section>
+
+    </main>
+    <!-- ==== main end ================================================================== -->
+
+    <!-- ==== footer ======================================================== -->
+    <footer class="footer__main">
+      <div class="footer__container">
+        <div class="footer">
+          Упражнения взяты из книги Рюты Кавашима ©
+        </div>
+      </div>
+    </footer>
+    <!-- ===== footer end ======================================================= -->
+
+    <script src="./js/ryutaKawashima4.js"></script>
+  </div>
+
+</body>
+
+</html>
